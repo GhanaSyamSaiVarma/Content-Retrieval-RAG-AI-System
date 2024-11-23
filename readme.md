@@ -4,7 +4,6 @@
 ## Overview
 
 This project is designed to create a Retrieval-Augmented Generation (RAG) system using a Large Language Model (LLM). The system integrates with an API to scrape content from the internet and uses an API to serve the LLM-generated answers. A simple front-end interface is provided to interact with the system. 
-Note: ONLY use the packages provided in the requirements.txt file (similar/alternative packages are ok only if they perform similar task/function). 
 
 ## Process Overview
 
@@ -26,10 +25,7 @@ Note: ONLY use the packages provided in the requirements.txt file (similar/alter
 6. **Response Sent Back to Streamlit Interface**:
    - The Flask backend sends the generated answer back to the Streamlit interface, where it is displayed to the user.
 
-## What we expect?
-We expect you to explore, understand the components and functionality, and demonstrate your ability to work with the provided tools and deliver a solution that meets the requirements. 
 
-Bonus points: If you use Langchain (or similar tools to add memory to the system) to make the chatbot conversational.
 ## Prerequisites
 
 - Python 3.8 or above
@@ -103,12 +99,10 @@ Open your web browser and go to `http://localhost:8501`. You can now interact wi
 - **.env**: Stores API keys (make sure this file is not included in version control).
 - **requirements.txt**: Lists the project dependencies.
 
-## Task Instructions for Candidates
+## Instructions for Contributors
 
-You are required to complete the following:
+You are encouraged to:
 
-1. Implement the functionality to fetch, process, and generate responses from an LLM using the provided APIs.
-2. Integrate the APIs with the Flask backend.
-3. Display the results in the Streamlit frontend.
-
-Good luck!
+Implement functionality to fetch, process, and generate responses using the Serper API.
+Integrate the APIs effectively within the Flask backend.
+Ensure a smooth user experience in the Streamlit frontend.
